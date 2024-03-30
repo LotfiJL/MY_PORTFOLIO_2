@@ -1,0 +1,103 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/feather-pen-1.png",
+      "title": "Front-End",
+      "description": "crafting engaging user interfaces that seamlessly blend creativity with functionality, and user-friendly experiences that leave a lasting impression",
+      "image": [
+        { "image1": "/img/reactImg.jpeg" },
+        { "image1": "/img/bootstrap.jpeg" },
+        { "image1": "/img/css.jpeg" },
+        { "image1": "/img/htmll.jpeg" }
+      ]
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Creating scalable and efficient back-end solutions that support smooth operations, ensuring optimal performance, reliability, and seamless functionality.      ",
+      "image": [
+        { "image1": "/img/djangoImg.jpeg" },
+        { "image1": "/img/expressJS.jpeg" },
+        {
+          "image1": "/img/nodejsLOGO.jpeg"
+        }
+      ]
+    },
+
+    {
+      "id": "3",
+      "src": "./img/product-chain-1.png",
+      "title": "Databases Management",
+      "description": "Implementing robust database solutions to ensure data integrity, scalability, and seamless performance for efficient operations.      ",
+      "image": [
+        { "image1": "/img/mongoDB.jpeg" },
+        { "image1": "/img/mySQL.jpeg" }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/coraan.png",
+      "title": "Coraan App",
+      "description": "Enabling users to access specific features, ex online Quran reading in MP3 format and live streaming in MP4 format.Designing an intuitive interface...",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/Hooks.jpeg",
+      "title": "Movie app",
+      "description": " developed a feature-rich application using React.js. The website showcases a collection of movies with a user freindly interface.  ",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/ecommerce.jpeg",
+      "title": "Ecommerce app",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "4",
+      "src": "./img/powerBI-SQL.png",
+      "title": "DB Management with Microsoft SQL Server",
+      "description": "optimized logistic flows using Microsoft SQL Server.  process enhancements, streamlining operations.",
+      "link": "View In Github"
+    },
+    {
+      "id": "5",
+      "src": "./img/powerBI-SQL.png",
+      "title": "Data Analytics with Power BI",
+      "description": "Utilizing Power BI to analyze supply chain data, identify bottlenecks, and optimize internal logistic flows.leads to continuous improvement initiatives",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "I really appreciate your assistance on my React project. Your help made a significant difference, thank you!",
+      "author_name": "Ali ",
+      "author_designation": "Student"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Your competence played a crucial role in its success, and I am grateful for your outstanding contribution",
+      "author_name": "Slim",
+      "author_designation": "Student"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": " Your competence has been invaluable  dealing with django project",
+      "author_name": "Ahmed",
+      "author_designation": "Student"
+    }
+  ]
+}
