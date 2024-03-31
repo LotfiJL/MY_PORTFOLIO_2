@@ -12,8 +12,7 @@ export default function ContactMe() {
     message: "",
     checkbox: false,
   });
-axios.defaults.withCredentials = true;
-
+  axios.defaults.withCredentials = true;
   // Function to handle changes in form fields
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -28,7 +27,7 @@ axios.defaults.withCredentials = true;
         "my-portfolio-2-app2.vercel.app/submit-form",
 
         "https://my-portfolio-2-app2.vercel.app//submit-form",
- 
+
         formData
       );
       console.log(response.data);
