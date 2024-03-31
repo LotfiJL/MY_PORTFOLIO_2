@@ -24,7 +24,7 @@ export default function ContactMe() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://my-portfolio-1-vcnx.onrender.com/submit-form",
+        "http://localhost:3500/submit-form",
         formData
       );
       console.log(response.data);

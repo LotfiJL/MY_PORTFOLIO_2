@@ -14,7 +14,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Add CORS middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["GET", "POST"],
+    credentials: true,
+  })
+);
 
 // Connect to MongoDB
 mongoose.connect(process.env.DB_URI, {
