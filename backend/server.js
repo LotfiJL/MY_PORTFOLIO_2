@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Add CORS middleware
 app.use(
   cors({
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: ["https://my-portfolio-2-front.vercel.app/"],
     methods: ["GET", "POST"],
     credentials: true,
   })
