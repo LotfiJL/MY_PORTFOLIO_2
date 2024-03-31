@@ -19,6 +19,7 @@ app.use(
     origin: ["https://my-portfolio-2-front.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
 
