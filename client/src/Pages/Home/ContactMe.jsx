@@ -25,11 +25,10 @@ axios.defaults.withCredentials = true;
     e.preventDefault();
     try {
       const response = await axios.post(
-<<<<<<< HEAD
         "my-portfolio-2-app2.vercel.app/submit-form",
-=======
+
         "https://my-portfolio-2-app2.vercel.app//submit-form",
->>>>>>> c60629ea603b532e5ed12ffef1ba8348478194ee
+ 
         formData
       );
       console.log(response.data);
