@@ -10,8 +10,7 @@ const app = express();
 
 const PORT = process.env.PORT;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+
 
 // Add CORS middleware
 app.use(
@@ -22,6 +21,9 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connect to MongoDB
 mongoose.connect(process.env.DB_URI, {
