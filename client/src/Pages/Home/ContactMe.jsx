@@ -24,7 +24,7 @@ export default function ContactMe() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3500/submit-form",
+        "my-portfolio-2-app2.vercel.app/submit-form",
         formData
       );
       console.log(response.data);
