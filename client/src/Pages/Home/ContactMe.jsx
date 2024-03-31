@@ -12,6 +12,7 @@ export default function ContactMe() {
     message: "",
     checkbox: false,
   });
+axios.defaults.withCredentials = true;
 
   // Function to handle changes in form fields
   const handleChange = (e) => {
