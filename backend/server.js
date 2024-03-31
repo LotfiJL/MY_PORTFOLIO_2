@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 
-const PORT = process.env.PORT;
+const PORT = 3500;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -23,11 +23,14 @@ app.use(
 );
 
 // Connect to MongoDB
-mongoose.connect(process.env.DB_URI, {
-  /*to be removed*/
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  "mongodb+srv://LotfiJL:Lotfi123@cluster0.9xj1qor.mongodb.net/",
+  {
+    /*to be removed*/
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Mongo DB connection error:"));
@@ -62,7 +65,7 @@ app.post("/submit-form", async (req, res) => {
       service: "Gmail",
       auth: {
         user: "lotfijellali0@gmail.com",
-        pass: process.env.PASSWORD,
+        pass: "ftbo atra mitg ygcm",
       },
       tls: {
         rejectUnauthorized: false, // Ignore SSL certificate verification
